@@ -1,5 +1,5 @@
-const SUPABASE_URL = 'https://YOUR_PROJECT_ID.supabase.co';
-const SUPABASE_KEY = 'YOUR_ANON_KEY';
+const SUPABASE_URL = 'https://pldrljxrlrlggwnxnogy.supabase.co';
+const SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InBsZHJsanhybHJsZ2d3bnhub2d5Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODcxMzg2NTcsImV4cCI6MjEwMjcxNDY1N30.Fa1yYP4vC3d6H2fXQxg6AEsFNvRIkqOqMYg-U54Djws';
 const db = supabase.createClient(SUPABASE_URL, SUPABASE_KEY);
 
 // 投稿を取得して表示
