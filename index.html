@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>Text SNS</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+</head>
+<body>
+  <h1>Text SNS</h1>
+
+  <div class="form-container">
+    <input type="text" id="username" placeholder="名前" maxlength="20">
+    <textarea id="content" placeholder="いま何してる？（140文字まで）" maxlength="140"></textarea>
+    <button id="post-btn">投稿する</button>
+  </div>
+
+  <div id="timeline"></div>
+
+  <script src="app.js"></script>
+</body>
+</html>
